@@ -36,8 +36,8 @@
                 {
                     "type" : "git",
                     "url" : "https://source.puri.sm/Librem5/libhandy.git",
-                    "tag": "v0.0.7",
-                    "commit": "fac9fa59a83f47655d604796632a932d58cf60bb"
+                    "tag": "v0.0.8",
+                    "commit": "3721b490b6aacd0a8c755bf445b0a91ee9c347bc"
                 }
             ]
         },
@@ -48,8 +48,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/aviwad/Organizer.git",
-                    "tag" : "v0.101",
-                    "commit" : "0a249cec75c1e63e12a530a2e5496af55ba8d44d"
+                    "tag" : "v0.102",
+                    "commit" : "89b82228f378300732e2bb67b2e771f363426421"
                 }
             ]
         }
