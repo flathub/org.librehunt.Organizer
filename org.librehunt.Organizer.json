@@ -48,8 +48,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/aviwad/Organizer.git",
-                    "tag" : "v0.102",
-                    "commit" : "89b82228f378300732e2bb67b2e771f363426421"
+                    "tag" : "v0.103",
+                    "commit" : "ea2bb49d407860d6bbf018eb24834e76a47f94f0"
                 }
             ]
         }
