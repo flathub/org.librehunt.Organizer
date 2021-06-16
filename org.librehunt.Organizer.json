@@ -1,16 +1,14 @@
 {
     "app-id" : "org.librehunt.Organizer",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.32",
+    "runtime-version" : "40",
     "sdk" : "org.gnome.Sdk",
     "command" : "organizer",
     "finish-args" : [
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
-        "--filesystem=home",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro"
+        "--filesystem=home"
     ],
     "cleanup" : [
         "/include",
@@ -47,9 +45,13 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/aviwad/Organizer.git",
+                    "url" : "https://gitlab.gnome.org/aviwad/organizer.git",
                     "tag" : "v0.201",
                     "commit" : "87e988e0384eca067b519324c183421125092da7"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "appdata.patch"
                 }
             ]
         }
