@@ -51,7 +51,7 @@
                 },
                 {
                     "type" : "patch",
-                    "path" : "appdata.patch"
+                    "path" : "fix-appdata.patch"
                 }
             ]
         }

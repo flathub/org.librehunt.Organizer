@@ -1,0 +1,50 @@
+From b26ca9d5aab9aecd78a6f43439bd000c18c1598a Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Thu, 15 Jan 2026 18:12:12 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+---
+ data/org.librehunt.Organizer.appdata.xml.in | 19 +++++++++----------
+ 1 file changed, 9 insertions(+), 10 deletions(-)
+
+diff --git a/data/org.librehunt.Organizer.appdata.xml.in b/data/org.librehunt.Organizer.appdata.xml.in
+index 76fa1bd..f9b88c1 100644
+--- a/data/org.librehunt.Organizer.appdata.xml.in
++++ b/data/org.librehunt.Organizer.appdata.xml.in
+@@ -17,24 +17,23 @@
+       <li>Constantly improving, just inform the developer! (in the link below)</li>
+     </ul>
+ 	</description>
++  <developer id="org.librehunt"><name>Avi Wadhwa</name></developer>
++  <url type="homepage">https://gitlab.gnome.org/aviwad/organizer</url>
+   <url type="bugtracker">https://gitlab.gnome.org/aviwad/organizer/issues</url>
+-  <project_group>GNOME</project_group>
+-
++  <url type="vcs-browser">https://gitlab.gnome.org/aviwad/organizer</url>
+   <releases>
+     <release version="0.201" date="2019-03-31">
+       <description>
+-        Get more animations throughout, shift from notifications to in-app notifications, upgrade code infrastructure (Gtk Templates)
++        <p>Get more animations throughout, shift from notifications to in-app notifications,
++          upgrade code infrastructure (Gtk Templates)</p>
+       </description>
+     </release>
+   </releases>
+-  
+-  <categories>
+-    <category>Utility</category>
+-  </categories>
+-
+-  <screenshots type="default">
+-    <screenshot>
++  <screenshots>
++    <screenshot type="default">
+       <image type="source">https://gitlab.gnome.org/aviwad/organizer/raw/master/screenshots/homescreen.png</image>
++    </screenshot>
++    <screenshot>
+       <image>https://gitlab.gnome.org/aviwad/organizer/raw/master/screenshots/music.png</image>
+     </screenshot>
+   </screenshots>
+--
+libgit2 1.7.2
+
